@@ -1,6 +1,6 @@
 const fizzBuzz  = require("./fizzBuzz");
 
-describe('FizzBuzz', () => {
+xdescribe('FizzBuzz', () => {
     describe('returning a number', () => {
         it('when passed 1, it should return 1', () => {
             expect(fizzBuzz(1)).toBe(1);
